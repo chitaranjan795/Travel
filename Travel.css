@@ -1,0 +1,626 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Shippori Antique', sans-serif;
+    scroll-behavior: smooth;
+    color: black;
+}
+/* navigation start */
+nav{
+    /* background-color: rgb(126, 122, 122); */
+    background-color: burlywood;
+}
+.nav-container{
+    padding: 0%;
+    padding: 0px 0;
+}
+.brand-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand-name h3{
+    margin: 0%;
+    text-decoration: none;
+    font-size: 3.2rem;
+    padding: 5px 0;
+    font-family: 'Kaushan Script', cursive;
+}
+.brand-name a{
+    text-decoration: none;
+    /* color: rgb(158, 158, 154); */
+    color: black;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+}
+.three-dot .fa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid wheat;
+    padding: 5px 8px;
+    text-decoration: none;
+    box-shadow: 0 0 10px gray;
+}
+.three-dot .fa{
+    font-size: 2.6rem;
+}
+.three-dot{
+    display: none;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list ul{
+    width: 100%;
+    display: flex;
+    margin: 0%;
+}
+.list ul li:nth-child(1),
+.list ul li:nth-child(2),
+.list ul li:nth-child(3){
+    margin-right: 40px;
+}
+.list ul li a{
+    /* color: rgb(158, 158, 154); */
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px 0;
+    font-family: 'Kaushan Script', cursive;
+}
+/* navigation end */
+
+/* header start */
+header{
+    height: 700px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.479)),url("photos/travelgirlbanner.jpg");
+    background-blend-mode:darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.header-container{
+    text-align: center;
+}
+.heading-content h1{
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    color: rgb(255, 254, 249);
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+}
+.heading-content p{
+    font-size: 1.8rem;
+    margin: 50px 0;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(122, 103, 38);
+    font-family: 'Marck Script', cursive;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+.heading-content .buttons button:nth-child(1){
+    background-color: burlywood;
+    border: none;
+    outline: none;
+    padding: 12px 30px 12px 30px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 0 10px 0 0;
+}
+.heading-content .buttons button:nth-child(2){
+    background-color: transparent;
+    border: 3px solid #fff;
+    outline: none;
+    padding: 10px 25px 10px 25px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 0 0 0 10px;
+}
+.header-icon-row{
+    color: #fff;
+}
+.header-icon-row span{
+    font-size: 4rem;
+    color: #fff;
+}
+/* header end */
+
+/* section1 start */
+.section1{
+    padding: 50px 0;
+}
+.section1-leftbox h1{
+    font-size: 5.6rem;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0%;
+}
+.section1-leftbox p{
+    font-size: 1.6rem;
+    margin-top: 7%;
+    line-height: 3rem;
+}
+.section1-leftbox button{
+    background-color: burlywood;
+    border: none;
+    outline: none;
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 40px 0 85px;
+}
+.section1-2nd-row{
+    margin-top: 30px;
+}
+.section1 img{
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.658);
+}
+/* section1 end */
+
+/* section2 start */
+.section2{
+    padding: 70px 0;
+    background-color: rgb(143, 114, 73);
+}
+.section2-container{
+    color: #fff;
+}
+.section2-container .section2-row1 h2{
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+}
+.section2-container .section2-row1 p{
+    font-size: 1.6rem;
+}
+/* section2 end */
+
+/* section3 start */
+.section3{
+    height: 650px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.418)), url("photos/guitar.jpg");
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section3-heading{
+    position: relative;
+    top: 220px;
+}
+.section3-heading h1{
+    height: 100%;
+    font-size: 7em;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(128, 133, 59);
+}
+.columns{
+    margin-top: 330px;
+}
+.img-col{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid rgba(43, 40, 40, 0.589); */
+    text-align: center;
+    box-shadow: 0 0 10px rgb(128, 133, 59);
+}
+.img-col h3{
+    font-weight: bold;
+}
+.img-col p{
+    color: rgb(100, 98, 98);
+}
+.img-col a{
+    color: rgb(247, 169, 74);
+    border-bottom: 1px solid rgb(252, 190, 116);
+    text-decoration: none;
+}
+/* section3 end */
+
+/* section4 start */
+.section4-left-text,
+.section4-right-text{
+    padding: 70px 15px;
+}
+.section4-left-text h1{
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4.5rem;
+}
+.section4-left-text p{
+    font-size: 1.6rem;
+}
+.section4-right-text p{
+    font-size: 1.6rem;
+}
+.section4-right-text h3{
+    font-weight: bold;
+    font-size: 4.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
+.section4-right-text h5{
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: burlywood;
+    margin-top: 30px;
+}
+.section4-left-text button{
+    background-color: burlywood;
+    border: none;
+    outline: none;
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 20px 0 0px;
+}
+/* section4 end */
+
+/* section5 start */
+.section5{
+    background-image: url("photos/tower.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 17% 0 7%;
+}
+.section5-row{
+    padding: 0%;
+    background-color: #fff;
+}
+.section5-left-col{
+    padding: 15px 15px 15px 40px;
+}
+.section5-left-col h1{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+}
+.section5-left-col p{
+    font-size: 1.6rem;
+    line-height: 2.5rem
+}
+.section5-left-col button{
+    background-color: burlywood;
+    border: none;
+    outline: none;
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 20px 0 0px;
+}
+.section5-right-col{
+    padding: 15px 15px;
+}
+/* section5 end */
+
+/* section6 start */
+.section6{
+    padding: 70px 0;
+}
+.section6-row .section6-left-col h1{
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 5%;
+}
+.section6-row .section6-left-col p{
+    font-size: 1.6rem;
+}
+.section6-row .section6-left-col p span{
+    color: burlywood;
+}
+.section6-row .section6-left-col img{
+    margin-top: 5%;
+}
+.section6-right-col p{
+    font-size: 1.6rem;
+}
+.section6-right-col p:nth-child(2){
+    margin-top: 5%;
+    line-height: 2.6rem;
+}
+.section6-right-col p span{
+    color: burlywood;
+}
+.section6-right-col p:nth-child(3){
+    color: burlywood;
+    line-height: 2.6rem;
+}
+.section6-right-col button{
+    background-color: burlywood;
+    border: none;
+    outline: none;
+    padding: 13px 20px 13px 20px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin: 20px 0 0px;
+}
+/* section6 end */
+
+/* section7 start */
+.section7{
+    padding: 100px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.603)), url("photos/travel-bottom.jpg");
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section7-left-col h1{
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.section7-left-col p{
+    color: #fff;
+    line-height: 3.2rem;
+    font-size: 1.9rem;
+    margin: 20px 0;
+}
+.section7-container .section7-row .section7-left-col button{
+    padding: 0%;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 9px 30px 11px 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    /* margin-top: 30px; */
+}
+.section7-right-col label{
+    color: rgba(255, 255, 255, 0.459);
+    font-size: 1.8rem;
+}
+.section7-right-col #email, .section7-right-col #name, .section7-right-col #address,
+.section7-right-col #msg{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+}
+.name , .adres, #messg{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.473);
+}
+.section7-right-col #submit{
+    width: 30%;
+    background-color: rgba(222, 184, 135, 0);
+    border-radius: 50px;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 20px 0 0 35%;
+    font-weight: bold;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+/* section7 end */
+
+@media only screen and (max-width:992px){
+    html{
+        font-size: 45%;
+    }
+    .list ul li a{
+        /* color: rgb(158, 158, 154); */
+        color: black;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 10px 0;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .heading-content .buttons button:nth-child(1){
+        padding: 11px 25px;
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+    }
+    .heading-content .buttons button:nth-child(2){
+        padding: 8px 20px;
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+    }
+    .section1-leftbox p{
+        margin-top: 5%;
+    }
+    .section1-leftbox button{
+        margin: 3% 0 7%;
+        padding: 10px 17px 10px 17px;
+        font-size: 1.3rem;
+    }
+    .section3-heading h1{
+        font-size: 6em;
+    }
+    .section5-left-col button{
+        padding: 10px 17px;
+        font-size: 1.2rem;
+        margin: 0px 0 0px;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    /* navigation start */
+    .nav-container{
+        padding: 5px 0;
+    }
+    .flex-div{
+        display: block;
+    }
+    .brand-name a h3{
+        font-size: 3rem;
+    }
+    .list{
+        display: none;
+    }
+    .list ul{
+        display: flex;
+        margin-bottom: 5px;
+    }
+    .navigation .nav-container .flex-div .list ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 10px 0;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .flex-div .three-dot{
+        display: block;
+    }
+
+    /* navigation end */
+
+    /* header start */
+    .header-container .heading-content h1{
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .header-container .heading-content p{
+        font-size: 2.6rem;
+        margin: 20px 0;
+    }
+    /* header end */
+
+    /* section1 start */
+    .section1-leftbox h1{
+        font-size: 4.3rem;
+    }
+    .section1-leftbox p{
+        font-size: 1.5rem;
+    }
+    .section1-1st-row{
+        margin-top: 15px;
+    }
+    .section1-2nd-row{
+        margin-top: 15px;
+    }
+    .section1-2nd-row .section1-1st-col,
+    .section1-2nd-row .section1-2nd-col,
+    .section1-2nd-row .section1-3rd-col{
+        margin-bottom: 15px;
+    }
+    /* section1 end */
+
+    /* section2 start */
+    /* secttion2 end */
+
+    /* section3 start */
+    .section3-heading h1{
+        font-size: 6.5rem;
+    }
+    .col1, .col2, .col3{
+        margin-bottom: 15px;
+    }
+    /* secttion3 end */
+
+    /* section4 start */
+    .section4{
+        padding-bottom: 30px;
+    }
+    .section4-left-text{
+        padding: 0%;
+        margin-top: 25px;
+    }
+    .section4-left-text p{
+        line-height: 3rem;
+    }
+    .section4-right-text{
+        padding: 0%;
+        margin-top: 20px;
+    }
+    .section4-right-text p{
+        line-height: 3rem;
+    }
+    .section4-left-text button{
+        margin: 5px 0 0px;
+    }
+    /* secttion4 end */
+
+    /* section5 start */
+    .section5{
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        padding: 70px 0;
+    }
+    .section5-row{
+        margin: 0;
+    }
+    .section5-left-col{
+        padding: 15px 15px 15px 15px;
+    }
+    /* secttion5 end */
+
+    /* section6 start */
+    .section6{
+        padding: 40px 0;
+    }
+    .section6-right-col{
+        margin-top: 20px;
+    }
+    .section6-right-col button{
+        padding: 10px 17px 12px 17px;
+        font-size: 1.2rem;
+        margin: 0px 0 0px;
+    }
+    /* secttion6 end */
+
+    /* section7 start */
+    .section7{
+        background-image: url("photos/dw.jpg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .section7-left-col h1{
+        font-size: 4rem;
+    }
+    .section7-left-col p{
+        font-size: 1.8rem;
+    }
+    .section7-container .section7-row .section7-left-col button{
+        margin: 10px 0 30px;
+    }
+    /* section7 end */
+}
+
+
+@media only screen and (max-width:350px){
+    .navigation .nav-container .flex-div .list ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 10px 0;
+        font-family: 'Kaushan Script', cursive;
+    }
+}
