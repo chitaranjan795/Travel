@@ -595,7 +595,8 @@ header{
 
     /* section7 start */
     .section7{
-        background-image: url("photos/dw.jpg");
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.603)), url("photos/travel-bottom.jpg");
+        background-blend-mode: darken;
         display: flex;
         align-items: center;
         justify-content: center;
