@@ -5,10 +5,10 @@
     font-family: 'Shippori Antique', sans-serif;
     scroll-behavior: smooth;
     color: black;
+    overflow-x: hidden;
 }
-/* navigation start */
+/* navigation start */  
 nav{
-    /* background-color: rgb(126, 122, 122); */
     background-color: burlywood;
 }
 .nav-container{
@@ -24,12 +24,11 @@ nav{
     margin: 0%;
     text-decoration: none;
     font-size: 3.2rem;
-    padding: 5px 0;
+    padding: 8px 0;
     font-family: 'Kaushan Script', cursive;
 }
 .brand-name a{
     text-decoration: none;
-    /* color: rgb(158, 158, 154); */
     color: black;
 }
 .flex-div{
@@ -58,20 +57,25 @@ nav{
 .list ul{
     width: 100%;
     display: flex;
+    gap: 30px;
     margin: 0%;
 }
-.list ul li:nth-child(1),
+/* .list ul li:nth-child(1),
 .list ul li:nth-child(2),
 .list ul li:nth-child(3){
     margin-right: 40px;
-}
+} */
 .list ul li a{
-    /* color: rgb(158, 158, 154); */
     color: black;
     text-decoration: none;
     font-size: 2rem;
-    padding: 10px 0;
+    padding: 0px 0;
     font-family: 'Kaushan Script', cursive;
+    transition: all 1.5s;
+}
+.list ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: all .1s;
 }
 /* navigation end */
 
@@ -95,8 +99,8 @@ header{
     color: rgb(255, 254, 249);
     font-size: 6rem;
     font-weight: bold;
-    padding: 0%;
-    margin: 0%;
+    padding: 10px 0%;
+    margin: auto;
 }
 .heading-content p{
     font-size: 1.8rem;
@@ -147,10 +151,11 @@ header{
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
     margin: 0%;
+    padding: 10px 0;
 }
 .section1-leftbox p{
     font-size: 1.6rem;
-    margin-top: 7%;
+    margin-top: 10px;
     line-height: 3rem;
 }
 .section1-leftbox button{
@@ -186,12 +191,14 @@ header{
 }
 .section2-container .section2-row1 p{
     font-size: 1.6rem;
+    padding: 1px 0;
 }
 /* section2 end */
 
 /* section3 start */
 .section3{
-    height: 650px;
+    /* height: 650px; */
+    padding: 0 0 50px 0;
     background-image: linear-gradient(to right,rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.418)), url("photos/guitar.jpg");
     background-blend-mode:darken;
     background-position: center;
@@ -200,19 +207,20 @@ header{
 }
 .section3-heading{
     position: relative;
-    top: 220px;
+    top: 50px;
 }
 .section3-heading h1{
-    height: 100%;
     font-size: 7em;
     font-weight: bold;
     color: #fff;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     text-shadow: 0 0 10px rgb(128, 133, 59);
+    padding: 20px;
+    margin: 0%;
 }
 .columns{
-    margin-top: 330px;
+    margin-top: 160px;
 }
 .img-col{
     padding: 15px;
@@ -223,6 +231,7 @@ header{
 }
 .img-col h3{
     font-weight: bold;
+    padding: 10px 0;
 }
 .img-col p{
     color: rgb(100, 98, 98);
@@ -243,6 +252,7 @@ header{
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
     font-size: 4.5rem;
+    padding: 12px 0;
 }
 .section4-left-text p{
     font-size: 1.6rem;
@@ -254,6 +264,7 @@ header{
     font-weight: bold;
     font-size: 4.5rem;
     font-family: 'Kaushan Script', cursive;
+    padding: 12px 0;
 }
 .section4-right-text h5{
     font-size: 1.6rem;
@@ -293,6 +304,7 @@ header{
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
     color: black;
+    padding: 12px 0;
 }
 .section5-left-col p{
     font-size: 1.6rem;
@@ -323,9 +335,11 @@ header{
     font-weight: bold;
     font-family: 'Kaushan Script', cursive;
     margin-bottom: 5%;
+    padding: 12px 0;
 }
 .section6-row .section6-left-col p{
     font-size: 1.6rem;
+    padding: 2px 0;
 }
 .section6-row .section6-left-col p span{
     color: burlywood;
@@ -335,6 +349,7 @@ header{
 }
 .section6-right-col p{
     font-size: 1.6rem;
+    padding: 2px 0;
 }
 .section6-right-col p:nth-child(2){
     margin-top: 5%;
@@ -376,6 +391,7 @@ header{
     font-family: 'Kaushan Script', cursive;
     font-weight: bold;
     font-size: 5rem;
+    padding: 10px 0;
 }
 .section7-left-col p{
     color: #fff;
@@ -393,7 +409,6 @@ header{
     font-weight: bold;
     font-size: 1.5rem;
     color: #fff;
-    /* margin-top: 30px; */
 }
 .section7-right-col label{
     color: rgba(255, 255, 255, 0.459);
@@ -425,6 +440,30 @@ header{
     border: 3px solid rgba(255, 255, 255, 0.5);
 }
 /* section7 end */
+button, .header .header-container .heading-content button{
+    transition: all .5s;
+}
+button:hover, .header .header-container .heading-content button:hover{
+    background-color: black;
+    transition: all .5s;
+}
+#contactbtn{transition: all .4s;}
+#contactbtn:hover{
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+    outline: none;
+    border: 3px solid burlywood;
+    transition: all .4s;
+}
+/* body{
+    position: relative;
+} */
+#scrollTop{
+    position: fixed;
+    right: 20px;
+    bottom: -1px;
+    display: none;
+}
 
 @media only screen and (max-width:992px){
     html{
